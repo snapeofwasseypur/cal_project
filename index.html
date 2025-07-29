@@ -10,23 +10,25 @@
     <div id="Calculator">
         <input id="display" readonly>
         <div id="keys">
-            <button onclick="applendToDisplay('+')">+</button>
+         
             <button onclick="applendToDisplay('7')">7</button>
             <button onclick="applendToDisplay('8')">8</button>
             <button onclick="applendToDisplay('9')">9</button>
-            <button onclick="applendToDisplay('-')">-</button>
             <button onclick="applendToDisplay('4')">4</button>
             <button onclick="applendToDisplay('5')">5</button>
             <button onclick="applendToDisplay('6')">6</button>
-            <button onclick="applendToDisplay('*')">*</button>
             <button onclick="applendToDisplay('1')">1</button>
             <button onclick="applendToDisplay('2')">2</button>
             <button onclick="applendToDisplay('3')">3</button>
-            <button onclick="applendToDisplay('/')">/</button>
             <button onclick="applendToDisplay('0')">0</button>
-            <button onclick="applendToDisplay('.')">.</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="clearDisplay()">c</button>                
+            <button onclick="applendToDisplay('+')" class="btn-ops">+</button>
+            <button onclick="applendToDisplay('*')"class="btn-ops">*</button>
+            <button onclick="applendToDisplay('-')"class="btn-ops">-</button>
+            <button onclick="applendToDisplay('.')"class="btn-ops">.</button>
+            <button onclick="calculate()"class="btn-ops">=</button>
+            <button onclick="clearDisplay()"class="btn-ops">c</button> 
+            <button onclick="applendToDisplay('/')"class="btn-ops">/</button>
+               
         </div>
     </div>
     <script src="script.js"></script>
